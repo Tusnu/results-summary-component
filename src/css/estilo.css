@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
+}
+
+.blue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%),  hsl(241, 81%, 54%));
+    border-radius: 1rem;
+    padding: 1rem;
+    justify-content: space-around;
+    max-width: 250px;
+    align-items: center;
+}
+
+.top {
+    color: hsl(241, 100%, 89%);
+    
+}
+
+.number- {
+    background-image: linear-gradient(to bottom, hsl(241, 81%, 54%),  hsl(252, 100%, 60%));
+    shape-outside: circle();
+    clip-path: circle();
+    width: 150px;
+    padding: 3rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.note {
+    font-size: xxx-large;
+    color: white;
+}
+
+.max {
+    color: hsl(241, 100%, 89%);
+}
+
+.otimo {
+    color: white;
+    font-size: x-large;
+}
+
+.info {
+    color: hsl(241, 100%, 89%);
+}
+
+.white {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(221, 100%, 96%);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 250px;
+}
+
+.titulo {
+    color: hsl(224, 30%, 27%);
+}
+
+.notes {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.reac {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(0, 100%, 90%);
+    border-radius: 1rem;
+}
+
+.memo {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(39, 100%, 90%);
+    border-radius: 1rem;
+}
+
+.verb {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(166, 100%, 90%);
+    border-radius: 1rem;
+}
+
+.visu {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(234, 85%, 90%);;
+    border-radius: 1rem;
+}
+
+.reaction {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    color: hsl(234, 85%, 45%);
+}
+
+.number-- {
+    display: flex;
+}
+
+.total {
+    color: hsl(224, 30%, 60%);
+}
+
+.botao {
+    padding: 1rem;
+    margin: 1rem;
+    border-style: none;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 1rem;
+    color: white;
+    width: 88%;
+}
