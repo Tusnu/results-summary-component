@@ -151,4 +151,5 @@ main {
     border-radius: 1rem;
     color: white;
     width: 88%;
+    cursor: pointer;
 }
